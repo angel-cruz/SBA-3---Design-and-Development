@@ -1,0 +1,25 @@
+:root {
+  --purple-light: hsl(254, 88%, 90%);
+  --purple: hsl(256, 67%, 59%);
+  --yellow-light: hsl(31, 66%, 93%);
+  --yellow: hsl(39, 100%, 71%);
+  --white: hsl(0, 0%, 100%);
+  --black: hsl(0, 0%, 7%);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #f5f5f5;
+  color: var(--black);
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+}
+
+.bento-grid {
+  max-width: 1000px;
+  margin: auto;
+}
