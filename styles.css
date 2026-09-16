@@ -18,7 +18,39 @@ body {
   font-family: "DM Sans", sans-serif;
   font-size: 18px;
 }
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+}
 
+h2 {
+  font-weight: 500;
+  line-height: 0.95;
+}
+
+.box {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.purple-text {
+  color: var(--purple);
+}
+
+.yellow-text {
+  color: var(--yellow);
+}
+
+.bento-grid {
+  max-width: 1000px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 300px 220px 220px;
+  gap: 25px;
+}
 .bento-grid {
   max-width: 1000px;
   margin: auto;
